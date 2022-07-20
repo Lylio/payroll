@@ -1,7 +1,7 @@
 # Payroll
 
 ### Description
-RESTy tutorial from spring.io
+RESTy tutorial from spring.io.
 
 |              |                                                                                                                                                                                                                                         |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,10 +14,13 @@ RESTy tutorial from spring.io
 
 
 ### Setup & Launch
-todo
+- `mvn clean spring-boot:run`
+- e.g. `curl -v localhost:8080/employees/ | json_pp`
+- e.g. `curl -X "DELETE" localhost:8080/employees/2`
+
+<br >
 
 ### Acknowledgements
-[Spring.io - REST](https://spring.io/guides/tutorials/rest/)
-<br/>
+- Based on the [Spring.io - REST](https://spring.io/guides/tutorials/rest/) tutorial.
 
-The cool repo badges, logos and code stats on this README are courtesy of [Simple Icons](https://simpleicons.org/) and [Shields.io](https://shields.io/).
+- The cool repo badges, logos and code stats included in this README are courtesy of [Simple Icons](https://simpleicons.org/) and [Shields.io](https://shields.io/).

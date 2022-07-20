@@ -41,12 +41,6 @@ public class EmployeeController {
 
     // Single item
 
-//    @GetMapping("employees/{id}")
-//    Employee one(@PathVariable Long id) {
-//        return repository.findById(id)
-//                .orElseThrow(() -> new EmployeeNotFoundException(id));
-//    }
-
     @GetMapping("/employees/{id}")
     EntityModel<Employee> one(@PathVariable Long id) {
 
